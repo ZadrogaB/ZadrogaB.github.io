@@ -1,6 +1,6 @@
 $(document).ready(function() {
    const apiRoot = 'https://obscure-bayou-16595.herokuapp.com/v1/task/';
-   const trelloApiRoot = 'https://obscure-bayou-16595.herokuapp.com/v1/trello/';
+   const trelloApiRoot = 'https://obscure-bayou-16595.herokuapp.com/v1/task/';
    const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
    const $tasksContainer = $('[data-tasks-container]');
 
